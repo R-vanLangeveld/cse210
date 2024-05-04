@@ -9,7 +9,7 @@ class Program
 
         //Added the option to AppendToFile which will add all entries to an existing file
         
-        //Changed the order of menu options to be
+        //Changed the order of menu options to be:
         //1. Write 
         //2. Display 
         //3. Save (overwrites file with same name) 
