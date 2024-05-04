@@ -17,7 +17,7 @@ class Program
         //5. Load 
         //6. Quit
 
-        //To encourage users to keeep writing in the journal
+        //To encourage users to keep writing in the journal
         //I made it say "See you tomorrow!" after the user types 6
         int menu = 0;
         Journal journal = new Journal();
