@@ -3,11 +3,11 @@ class MathAssignment : Assignment
     private string _textbookSection = " ";
     private string _problems = " ";
 
-    public void ConstructMathAssignment(string name, string topic, string book, string problems)
+    public MathAssignment(string name, string topic, string book, string problems) 
+        :base(name,topic)
     {
         _textbookSection = book;
         _problems = problems;
-        ConstructAssignment(name, topic);
     }
 
     public string GetHomeworkList()

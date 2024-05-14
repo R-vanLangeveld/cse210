@@ -2,10 +2,10 @@ class WritingAssignment : Assignment
 {
     private string _title = " ";
 
-    public void ConstructWritingAssignment(string title, string name, string topic)
+    public WritingAssignment(string title, string name, string topic)
+        :base(name,topic)
     {
         _title = title;
-        ConstructAssignment(name, topic);
     }
 
     public string GetWritingInformation()
